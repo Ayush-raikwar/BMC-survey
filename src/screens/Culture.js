@@ -303,7 +303,7 @@ const Culture = ({ registerObj,setRegisterObj,appLanguage, setSectionCompletionP
                     <View style={styles.radioButton}>
                         <RadioButton
                             value="5"
-                            status={ registerObj.cultureOfOurCountry === 'No' ? 'checked' : 'unchecked' }
+                            status={ registerObj.cultureOfOurCountry === '5' ? 'checked' : 'unchecked' }
                             onPress={() => setRegisterObj({
                                 ...registerObj,
                                 cultureOfOurCountry:'5'
@@ -335,7 +335,8 @@ const Culture = ({ registerObj,setRegisterObj,appLanguage, setSectionCompletionP
                         style={{
                             borderColor:'#aaa', 
                             borderWidth:1, 
-                            paddingHorizontal:10
+                            paddingHorizontal:10,
+                            color: '#000'
                         }}
                     />
                 </View>

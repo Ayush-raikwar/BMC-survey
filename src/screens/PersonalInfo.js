@@ -242,7 +242,8 @@ const PersonalInfo = ({
             selectedValue={selectedGender}
             onValueChange={(itemValue, itemIndex) => {
               onSelectGender(itemValue);
-            }}>
+            }}
+            style={{color:'#000'}}>
             <Picker.Item
               label={`${appLanguage === "Marathi" ? "स्त्री" : "Female"}`}
               value="Female"
@@ -264,7 +265,9 @@ const PersonalInfo = ({
             selectedValue={selectedEducation}
             onValueChange={(itemValue, itemIndex) => {
               onSelectEducation(itemValue);
-            }}>
+            }}
+            style={{color:'#000'}}
+            >
             <Picker.Item
               label={`${
                 appLanguage === "Marathi"
@@ -318,6 +321,7 @@ const PersonalInfo = ({
         </Text>
         <View style={styles.modalDropDown}>
           <Picker
+          style={{color:'#000'}}
               dropdownIconColor="black"
               selectedValue={selectedOccupation}
             onValueChange={(itemValue, itemIndex) => {

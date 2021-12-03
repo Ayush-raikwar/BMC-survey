@@ -376,7 +376,8 @@ const Financial = ({ registerObj,setRegisterObj,appLanguage, setSectionCompletio
                             borderWidth:1, 
                             paddingHorizontal:10,
                             marginLeft:10,
-                            marginTop:15
+                            marginTop:15,
+                            color: '#000'
                         }}
                 />
 
@@ -398,7 +399,8 @@ const Financial = ({ registerObj,setRegisterObj,appLanguage, setSectionCompletio
                             borderWidth:1, 
                             paddingHorizontal:10,
                             marginLeft:10,
-                            marginTop:15
+                            marginTop:15,
+                            color:'#000' 
                         }}
                 />
             </View>
@@ -419,7 +421,8 @@ const Financial = ({ registerObj,setRegisterObj,appLanguage, setSectionCompletio
                             borderWidth:1, 
                             paddingHorizontal:10,
                             marginLeft:10,
-                            marginTop:15
+                            marginTop:15,
+                            color:'#000' 
                         }}
                 />
                 <View style={{margin:5}}>
